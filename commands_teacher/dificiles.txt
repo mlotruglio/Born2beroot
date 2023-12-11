@@ -1,0 +1,8 @@
+Dir with monitoring.sh script: /usr/local/bin
+Dir with sudo commands history file: /var/log/sudo
+Open file with password character rules: sudo vim /etc/pam.d/common-password
+Open file with password changing times rules: sudo vim /etc/login.defs
+
+Show sudo rules: sudo visudo ls (por que no aparece nunca??)
+
+Change monitoring.sh time from 10 min to 1 min ¿ok?: sudo crontab -u root -e

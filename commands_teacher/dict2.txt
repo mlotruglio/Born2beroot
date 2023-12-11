@@ -1,0 +1,12 @@
+Check UFW started: sudo ufw status numbered
+Check SSH started: sudo service ssh status
+Check OS: lsb_release -a
+Check users belonging to group "team": getent group team
+Add user "void" to group "team": sudo usermod -aG team void
+Modify hostname to "host42": sudo hostnamectl set-hostname host42
+Check sudo installed: dpkg -l | grep sudo
+Show sudo rules: sudo visudo ls
+Add UFW rule to port 4242: sudo ufw allow 4242
+Delete UFW rule on port position #4: sudo ufw delete 4
+Log in to SSH with user "test", port 4242: ssh test@127.0.0.1 -p 4242
+:
