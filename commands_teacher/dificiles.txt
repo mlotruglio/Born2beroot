@@ -4,5 +4,6 @@ Open file with password character rules: sudo vim /etc/pam.d/common-password
 Open file with password changing times rules: sudo vim /etc/login.defs
 
 Show sudo rules: sudo visudo ls (por que no aparece nunca??)
+Check password setting for user "test": sudo chage -l test (se me habia olvidado añadirla)
 
 Change monitoring.sh time from 10 min to 1 min ¿ok?: sudo crontab -u root -e

@@ -21,4 +21,5 @@ Dir with monitoring.sh script: /usr/local/bin
 Change monitoring.sh time from 10 min to 1 min ¿ok?: sudo crontab -u root -e
 Stop cron: sudo cronstop
 Start cron: sudo cronstart
+Check password setting for user "test": sudo chage -l test
 :
