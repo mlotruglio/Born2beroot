@@ -14,4 +14,5 @@ Check password setting for user "test": sudo chage -l test
 Change monitoring.sh time: sudo crontab -u root -e
 Stop cron: sudo service cron stop
 Start cron: sudo service cron start
+Change password for user "test": sudo passwd test
 :
