@@ -6,24 +6,24 @@ Check all groups user "test" belongs to: groups test
 Add new group "team": sudo groupadd team
 Add new user "void": sudo adduser void
 Add user "void" to group "team": sudo usermod -aG team void
-Open file with password character rules: sudo vim /etc/pam.d/common-password
-Open file with password changing times rules: sudo vim /etc/login.defs
 Check hostname: hostnamectl
 Modify hostname to "host42": sudo hostnamectl set-hostname host42
 Reboot server: sudo reboot
 View partitions: lsblk
 Check sudo installed: dpkg -l | grep sudo
 Show sudo rules: sudo visudo
-Dir with sudo commands history file: /var/log/sudo
 Add UFW rule to port 4242: sudo ufw allow 4242
 Delete UFW rule on port position #4: sudo ufw delete 4
-Dir with monitoring.sh script: /usr/local/bin
-Dir with ssh ports (sshd_config, added port 4242): /etc/ssh
 Change monitoring.sh time: sudo crontab -u root -e
 Stop cron: sudo service cron stop
 Start cron: sudo service cron start
 Check password setting for user "test": sudo chage -l test
 Change password for user "test": sudo passwd test
-Add port 4242: nc -zv localhost 4242
 Log in to SSH with user "malo-tru", port 2222: ssh malo-tru@127.0.0.1 -p 2222
+Add port 4242: nc -zv localhost 4242
+Open file with password character rules: sudo vim /etc/pam.d/common-password
+Open file with password changing times rules: sudo vim /etc/login.defs
+Dir with sudo commands history file: /var/log/sudo
+Dir with monitoring.sh script: /usr/local/bin
+Dir with ssh ports (sshd_config, added port 4242): /etc/ssh
 :

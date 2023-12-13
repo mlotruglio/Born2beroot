@@ -1,6 +1,0 @@
-Dir with monitoring.sh script: /usr/local/bin
-Dir with sudo commands history file: /var/log/sudo
-Dir with ssh ports (sshd_config, added port 4242): /etc/ssh
-Open file with password character rules: sudo vim /etc/pam.d/common-password
-Open file with password changing times rules: sudo vim /etc/login.defs
-:

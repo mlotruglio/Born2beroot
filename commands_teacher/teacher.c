@@ -21,7 +21,7 @@ void green()
 
 int main()
 {
-	int fd = open("dict.txt", O_RDONLY);
+	int fd = open("dict2.txt", O_RDONLY);
 	int i = 0;
 	int j = 0;
 	int letters = 0;

@@ -14,6 +14,5 @@ Change monitoring.sh time: sudo crontab -u root -e
 Stop cron: sudo service cron stop
 Start cron: sudo service cron start
 Change password for user "test": sudo passwd test
-Add port 4242: nc -zv localhost 4242
 Log in to SSH with user "malo-tru", port 2222: ssh malo-tru@127.0.0.1 -p 2222
 :
